@@ -57,10 +57,10 @@ const questions = [
                 return "视频长度不能为空";
             }
 
-            if (typof + input == "number" || !/\d{2}:\d{2}:\d{2}/.test(input)) {
-                return "请输入正确格式 ！例如 60 或 00:00:00";
+            if (/\d+/.test(input) || /\d{2}:\d{2}:\d{2}/.test(input)) {
+                return true;
             }
-            return true;
+            return "请输入正确格式 ！例如 60 或 00:00:00";
         }
     },
     {
@@ -107,7 +107,7 @@ const getAnswer = function(k) {
  * @param {Array} param1  [视频开始时间，视频截取时间]
  */
 const ffmpegSpawn = function(args, [startTime, endTime]) {
-    if (arguments.length == 0) throw new Error("ffmpegSpawn 缺少参数");
+    if (args.length == 0) throw new Error("ffmpegSpawn 缺少参数");
     log(chalk`commond run: {rgb(255,131,0) ffmpeg ${args.join(" ")}}`);
 
     const bar = new ProgressBar(":bar :percent", {
