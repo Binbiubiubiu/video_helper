@@ -1,0 +1,24 @@
+{
+  "name": "video_helper",
+  "version": "0.0.1",
+  "description": "a youtobe video helper",
+  "bin": {
+    "video-convert": "bin/convert-cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "inquirer": "^7.0.0",
+    "progress": "^2.0.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
