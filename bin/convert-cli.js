@@ -9,6 +9,7 @@ const { log } = console;
 
 const { calcWithTotal, calcWithTemp } = require("../lib/util/time");
 
+let resultFileName = "";
 const questions = [
     {
         type: "input",
@@ -69,7 +70,8 @@ const questions = [
         message: "输出结果视频的名称:",
         default: function() {
             const now = new Date().getTime();
-            return `${now}.mp4`;
+            resultFileName=`${now}.mp4`
+            return resultFileName;
         }
     }
 ];
@@ -120,7 +122,7 @@ const ffmpegSpawn = function(args, [startTime, endTime]) {
     let current = "";
 
     const ls = spawn("ffmpeg", args, {
-        cwd: __dirname
+        cwd: process.cwd()
         // stdio: "inherit"
     });
 
@@ -143,7 +145,7 @@ const ffmpegSpawn = function(args, [startTime, endTime]) {
             //如果结束进度条未完成直接结束
             bar.update(1);
         }
-        log(chalk.green("🎉 1567784572551.mp4转换结束 ！！"));
+        log(chalk.green(`🎉 ${resultFileName}转换结束 ！！`));
     });
     return;
 };
