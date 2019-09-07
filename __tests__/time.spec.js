@@ -20,6 +20,6 @@ describe("timerUtils", () => {
     });
 
     test("calcWithTemp(通过限定视频长度来计算进度)", () => {
-        expect(calcWithTemp("00:0:30", "00:01:00", "00:00:00")).toBe(50);
+        expect(calcWithTemp("00:00:30", "00:01:00", "00:00:10")).toBe(40);
     });
 });
