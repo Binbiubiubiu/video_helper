@@ -7,7 +7,10 @@ const ProgressBar = require("progress");
 const chalk = require("chalk");
 const { log } = console;
 
-const { calcWithTotal, calcWithTemp,convertToSeconds } = require("../lib/util/time");
+const {
+  calcWithTotal,
+  calcWithTemp
+} = require("../lib/util/time");
 
 let resultFileName = "";
 const questions = [
@@ -88,7 +91,7 @@ const questions = [
   let args = ["-i", sourceUrl];
   if (isNeedCut) {
     startTime && args.push("-ss", startTime);
-    endTime && args.push("-t", convertToSeconds(endTime) - convertToSeconds(startTime));
+    endTime && args.push("-to", endTime);
   }
   args.push(resultName);
   ffmpegSpawn(args, [startTime, endTime]);
