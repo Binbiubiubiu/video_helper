@@ -1,4 +1,9 @@
 # video_helper
+![image](https://img.shields.io/github/issues/Wildlifes/video_helper)
+![image](https://img.shields.io/github/forks/Wildlifes/video_helper)
+![image](https://img.shields.io/github/stars/Wildlifes/video_helper)
+![image](https://img.shields.io/github/license/Wildlifes/video_helper)
+
 a video tool
 ## Install
 
@@ -6,7 +11,6 @@ a video tool
 brew install ffmpeg
 
 yarn link
-
 ```
 ## Usage
 
