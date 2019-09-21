@@ -9,9 +9,20 @@
     "start": "node index.js",
     "test": "jest --coverage "
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "video_helper",
+    "ffmpeg",
+    "bin"
+  ],
+  "author": "lvbin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Wildlifes/video_helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wildlifes/video_helper/issues"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "inquirer": "^7.0.0",
