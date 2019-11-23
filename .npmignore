@@ -1,0 +1,7 @@
+.idea
+.github
+tmp
+node_modules
+coverage
+*.log
+*.log.*
