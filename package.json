@@ -17,8 +17,7 @@
   "files": [
     "bin",
     "lib",
-    "package.json",
-    "README.md"
+    "package.json"
   ],
   "author": "lvbin",
   "license": "MIT",
