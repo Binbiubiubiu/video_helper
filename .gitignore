@@ -7,4 +7,3 @@ node_modules
 #log
 *.log
 *.lock
-package-lock.json
