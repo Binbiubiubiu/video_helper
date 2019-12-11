@@ -26,6 +26,7 @@
     "type": "git",
     "url": "git@github.com:Wildlifes/video_helper.git"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bugs": {
     "url": "https://github.com/Wildlifes/video_helper/issues"
   },
