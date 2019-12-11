@@ -17,6 +17,7 @@
   "files": [
     "bin",
     "lib",
+    "LICENSE",
     "package.json"
   ],
   "author": "lvbin",
