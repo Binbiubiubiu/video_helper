@@ -1,6 +1,6 @@
 {
   "name": "video_helper",
-  "version": "3.0.0-0",
+  "version": "3.0.0",
   "description": "a youtobe video helper",
   "bin": {
     "video-convert": "bin/convert-cli.js"
