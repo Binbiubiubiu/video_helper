@@ -1,10 +1,12 @@
 # video_helper
-![image](https://img.shields.io/github/issues/Wildlifes/video_helper)
-![image](https://img.shields.io/github/forks/Wildlifes/video_helper)
-![image](https://img.shields.io/github/stars/Wildlifes/video_helper)
-![image](https://img.shields.io/github/license/Wildlifes/video_helper)
+
+![image](https://img.shields.io/github/issues/Simon-Bin/video_helper)
+![image](https://img.shields.io/github/forks/Simon-Bin/video_helper)
+![image](https://img.shields.io/github/stars/Simon-Bin/video_helper)
+![image](https://img.shields.io/github/license/Simon-Bin/video_helper)
 
 a video tool
+
 ## Install
 
 ```
@@ -12,6 +14,7 @@ brew install ffmpeg
 
 yarn link
 ```
+
 ## Usage
 
 video-convert
@@ -23,10 +26,9 @@ video-convert
 ? 结束时间: 00:01:00
 ? 输出结果视频的名称: 1567704916241.mp4
 ```
+
 #### youtube 字幕合成命令
 
 ```
 ffmpeg -i source.mp4 -vf subtitles=word.srt result.mp4
 ```
-
-
