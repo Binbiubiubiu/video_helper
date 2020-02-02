@@ -7,7 +7,13 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "jest --coverage "
+    "test": "jest --coverage ",
+    "release": "np --no-publish ",
+    "log": "npx gitmoji-changelog"
+  },
+  "np": {
+    "yarn": false,
+    "contents": "dist"
   },
   "keywords": [
     "video_helper",
@@ -39,6 +45,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "np": "^5.2.1"
   }
 }

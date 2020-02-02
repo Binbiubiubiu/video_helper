@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="next"></a>
+## next
+
+### Added
+
+- 👷‍♂️ add release.sh [[f5452d3](https://github.com/Simon-Bin/video_helper/commit/f5452d3bd396fc5c4354d865f8f53601c1d34b5d)]
+
+### Miscellaneous
+
+- 📝 update md [[aea2ae2](https://github.com/Simon-Bin/video_helper/commit/aea2ae2ee707da4cd00d91f651f2d2803532fec5)]
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2020-01-08)
 
