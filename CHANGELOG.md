@@ -1,10 +1,12 @@
 # Changelog
 
-<a name="next"></a>
-## next
+<a name="1.0.4"></a>
+## 1.0.4 (2020-02-02)
 
 ### Miscellaneous
 
+-  1.0.4 [[7ac3884](https://github.com/Simon-Bin/video_helper/commit/7ac388440738906055890ececd0e078d27e385d8)]
+- 📝 update CHANGELOG.md [[a644c67](https://github.com/Simon-Bin/video_helper/commit/a644c6713a5aa07c2e34a098c23bf0c882c17355)]
 - 🙈 gitignore coverage [[a3649bb](https://github.com/Simon-Bin/video_helper/commit/a3649bb1185330fc22073cff194ad4ccfb857653)]
 
 
