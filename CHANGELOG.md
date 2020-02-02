@@ -3,12 +3,22 @@
 <a name="next"></a>
 ## next
 
+### Miscellaneous
+
+- 🙈 gitignore coverage [[a3649bb](https://github.com/Simon-Bin/video_helper/commit/a3649bb1185330fc22073cff194ad4ccfb857653)]
+
+
+<a name="1.0.3"></a>
+## 1.0.3 (2020-02-02)
+
 ### Added
 
+- ➕ add np [[25aef69](https://github.com/Simon-Bin/video_helper/commit/25aef695a03819595c6f796d3feaf07e0070ecd1)]
 - 👷‍♂️ add release.sh [[f5452d3](https://github.com/Simon-Bin/video_helper/commit/f5452d3bd396fc5c4354d865f8f53601c1d34b5d)]
 
 ### Miscellaneous
 
+-  1.0.3 [[b61a2f6](https://github.com/Simon-Bin/video_helper/commit/b61a2f6ec982cfab0e39500d4d1e3ddca1620afb)]
 - 📝 update md [[aea2ae2](https://github.com/Simon-Bin/video_helper/commit/aea2ae2ee707da4cd00d91f651f2d2803532fec5)]
 
 
